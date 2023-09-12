@@ -1,0 +1,6 @@
+.vertical-bar {
+    width: 3em;
+    background-color: black;
+    margin: 50px 10px;
+    cursor: pointer;
+}
