@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from './VerticalBars.module.css';
 
 export const VerticalBars = ({ height, onClick, barNumber }) => {

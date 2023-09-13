@@ -19,7 +19,7 @@
 .bars-container {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     height: 30rem;
     left: 30%;
 }
