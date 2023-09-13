@@ -1,6 +1,23 @@
 .vertical-bar {
     width: 3em;
     background-color: black;
-    margin: 50px 10px;
+    margin: 0px 10px;
     cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.vertical-bar:nth-child(2n){
+    background-color: white;
+}
+.bar-nums{
+    position: absolute; 
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    background: transparent;
+    color: white;
+    padding: 4px 8px 
+}
+
+.vertical-bar:nth-child(2n) div{
+color: black;
 }

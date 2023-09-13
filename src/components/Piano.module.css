@@ -1,9 +1,11 @@
 .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: black;
+}
+
+.center-container h1{
+    color: white;
+    text-align: center;
 }
 
 .piano-container {
@@ -17,10 +19,8 @@
 .bars-container {
     display: flex;
     justify-content: center;
-    /* flex-direction: column-reverse; */
-    /* position: absolute; */
+    align-items: end;
+    height: 30rem;
     left: 30%;
-    /* rotate: 180deg; */
-    /* bottom: 100px; */
 }
 

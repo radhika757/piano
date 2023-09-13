@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
 import style from './VerticalBars.module.css';
 
-export const VerticalBars = ({ height, onClick }) => {
+export const VerticalBars = ({ height, onClick, barNumber }) => {
     return (
         <div
             className={style['vertical-bar']}
-            style={{ height: `${height}px` }}
+            style={{ height: `${height}px`, position: 'relative' }}
             onClick={onClick}
-        ></div>
+        >
+            {/* Bar numbers */}
+            <div
+                className={style['bar-nums']}
+            >
+                {barNumber}
+            </div>
+        </div>
     );
 };
 
